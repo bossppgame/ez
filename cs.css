@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>My Beautiful Website</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <style>
+    body {
+      padding-top: 56px;
+      font-family: 'Arial', sans-serif; /* เปลี่ยนแบบอักษรตามที่คุณต้องการ */
+    }
+    .container {
+      margin-top: 20px;
+    }
+    h1 {
+      font-size: 2.5em; /* ปรับขนาดตัวอักษรของหัวข้อ 1 */
+      font-weight: bold; /* ทำให้ตัวอักษรหนา */
+      color: #333; /* เปลี่ยนสีตัวอักษร */
+    }
+    p {
+      font-size: 1.2em; /* ปรับขนาดตัวอักษรของย่อหน้า */
+      font-weight: normal; /* ทำให้ตัวอักษรปกติ (ไม่หนา) */
+      color: #666; /* เปลี่ยนสีตัวอักษร */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <a class="navbar-brand" href="#">My Website</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Page Content -->
+  <div class="container">
+    <h1 class="mt-5">Welcome to My Beautiful Website</h1>
+    <p>This is a simple and beautiful website created with HTML, CSS, and Bootstrap.</p>
+    <!-- Add your content here -->
+  </div>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+.contact-info {
+  margin-top: 30px;
+  text-align: left; /* เปลี่ยนจาก center เป็น left */
+}
+
+.contact-info img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+  display: inline-block; /* เพิ่มคำสั่งนี้เพื่อให้รูปอยู่ในบรรทัดเดียวกับข้อความ */
+}
+</body>
+</html>

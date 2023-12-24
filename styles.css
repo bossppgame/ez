@@ -1,0 +1,12 @@
+/* styles.css */
+body {
+  padding-top: 56px;
+  background-color: #f8f9fa;
+  color: #007bff;
+}
+.container {
+  margin-top: 20px;
+}
+.member-card {
+  margin-bottom: 20px;
+}
